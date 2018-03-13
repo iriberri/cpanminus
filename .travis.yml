@@ -15,4 +15,4 @@ install:
   - cpanm -nq --installdeps --with-develop --with-recommends --with-suggests .
 script:
   - prove -lr xt -j9
-sudo: false
+sudo: required
